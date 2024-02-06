@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "shiny-sample-app"
+version = "0.1.0"
+description = ""
+authors = ["imamtagupta <mamtag962000@gmail.com>"]
+readme = "README.md"
+packages = [{include = "shiny_sample_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+shiny = "^0.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
