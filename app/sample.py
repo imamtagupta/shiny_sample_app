@@ -29,7 +29,6 @@ def server(input, output, session):
         x_rand = 100 + 15 * np.random.randn(437)
         fig, ax = plt.subplots()
         ax.hist(x_rand, int(input.random_num()), density=True)
-        # ui.span(f"number entered is {input.random_num()}")
         return fig
 
     
